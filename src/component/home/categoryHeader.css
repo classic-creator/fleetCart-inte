@@ -1,0 +1,57 @@
+.categoryHeader{
+    display: flex;
+    align-items: center;
+  /* position: absolute; */
+   /* background-color: aqua; */
+   /* width: 96%; */
+   margin-left: 0.5vmax;
+   border-bottom:  0.1px solid rgb(168, 157, 157);
+   border-top: 0.1px solid rgb(168, 157, 157) ;
+   box-sizing: border-box;
+   height: 5vmax;
+ 
+}
+
+.category{
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 20%;
+    text-align: center;
+    background-color: #0068e1 ;
+    color: white;
+    font-size: 1.4vmax;
+}
+.category p{
+   margin-right: 1px;
+}
+
+.categoryItem{
+    width: 55%;
+}
+.categoryItem ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.categoryItem ul li{
+
+    margin: 1px auto;
+    text-decoration: none;
+    font :300 1.5vmax "Roboto";
+    color: rgb(29, 24, 24);
+    transition: all 0.5s;
+    cursor: pointer;
+   
+
+}
+.categoryItem ul li:hover{
+color: #0068e1;
+}
+.price{
+   width: 25%;
+  text-align: end;
+  color: #ffb136;
+  font-size: 1.5vmax;
+}

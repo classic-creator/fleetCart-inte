@@ -1,0 +1,136 @@
+.header1 {
+    display: flex;
+    align-items: center;
+    height: 2.5vmax;
+    background-color: rgba(129, 138, 135, 0);
+    box-sizing: border-box;
+    border-bottom: .5px solid rgb(192, 181, 181);
+  
+}
+
+.headerItem1 {
+    width: 60%;
+    /* background-color: rgb(119, 48, 48); */
+    text-align: left;
+    margin-left: 0.5vmax;
+}
+
+.headerItem1 span {
+    font-size: 1.1vmax;
+}
+
+.headerItem2 {
+    /* background-color: aquamarine; */
+    width: 40%;
+    align-items: center;
+}
+
+.headerItem2 ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+
+.headerItem2 a {
+    text-decoration: none;
+    font-size: 1.3vmax;
+    color: rgb(29, 24, 24);
+    transition: all 0.5s;
+
+}
+
+.headerItem2 a:hover {
+    color: #0068e1
+}
+
+.headerItem2 li {
+    margin: 1px auto;
+    text-decoration: none;
+}
+
+/* MAIN HADER  */
+
+.navbar {
+    margin-top: .5vmax;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(182, 69, 69); */
+    height: 7vmax;
+}
+
+.left {
+    width: 20%;
+    align-items: center;
+    text-align:start;
+    margin-left: 1vmax;
+    font-size: 2vmax;
+}
+
+.middle {
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.middle div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.middle div input {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: .5px solid rgb(173, 154, 154);
+    outline: none;
+    border-radius: 1vmax;
+    height: 4vmax;
+}
+
+.middle div svg {
+    position: absolute;
+    font-size: 3vmax;
+    color: black;
+    align-items: center;
+    /* background-color: #0068e1; */
+
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+
+}
+
+.right div {
+    display: flex;
+    align-items: center;
+    margin: 1vmax;
+    cursor: pointer;
+}
+
+.right div span {
+
+    font-size: 1.5vmax;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.right div span:hover, .right div svg:hover {
+    color: #0068e1;
+
+}
+
+.right div svg {
+    margin-right: .5vmax;
+    font-size: 2vmax;
+    text-align: center;
+    transition: all 0.5s;
+
+    color: rgb(35, 37, 39);
+
+}
